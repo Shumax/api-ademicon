@@ -8,6 +8,14 @@ module.exports = {
       autoIncrement: true,
       primaryKey: true,
       type: Sequelize.INTEGER,
+		},
+		email: {
+      allowNull: false,
+      type: Sequelize.STRING,
+      unique: true,
+      validate: {
+        isEmail: true,
+      },
     },
     group: {
       allowNull: false,
