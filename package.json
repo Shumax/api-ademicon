@@ -1,0 +1,19 @@
+{
+  "name": "api-admicon",
+  "version": "1.0.0",
+  "description": "Api for test full-stack by to Ademilar",
+  "main": "index.js",
+  "repository": "https://github.com/Shumax/api-ademicon.git",
+  "author": "Shumax (Max Castro)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
