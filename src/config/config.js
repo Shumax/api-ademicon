@@ -1,4 +1,5 @@
-export default {
+/* eslint-disable no-undef */
+module.exports = {
   "development": {
     "username": "root",
     "password": "senha_da_nasa",
@@ -16,14 +17,14 @@ export default {
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "api-ademicon_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
+    "database": "api-ademicon_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
