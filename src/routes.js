@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { Router } = require('express');
 const User = require('./app/controllers/User.js');
 
