@@ -24,7 +24,7 @@ module.exports = {
 	},
 
 	async signin(req, res) {
-		const { quota, group, password } = req.body;
+		const { group, quota, password } = req.body;
 		const find = await User.findOne({ where: { quota: quota } });
 
 		try {
